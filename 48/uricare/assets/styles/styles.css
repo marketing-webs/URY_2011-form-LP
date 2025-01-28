@@ -279,6 +279,11 @@ a:hover {
   font-weight: 500;
   margin-bottom: auto;
 }
+@media (max-width: 768px) {
+  .header .header__logo .font2 {
+    display: none;
+  }
+}
 .header .header__logo img {
   grid-row: span 2;
 }
@@ -299,6 +304,10 @@ a:hover {
   font-weight: 300;
   padding: 15px 0;
   width: 100%;
+}
+.header nav .container a {
+  color: #fff;
+  font-size: 16px;
 }
 .header nav .container a:hover {
   text-decoration: underline;

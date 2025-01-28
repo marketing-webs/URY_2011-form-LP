@@ -44,11 +44,18 @@
             color: #000000;
             font-weight: 500;
             margin-bottom: auto;
+
+            @media (max-width:768px) {
+                display: none;
+            }
+            
         }
 
         img {
             grid-row: span 2;
         }
+
+
     }
 
     nav {
@@ -69,6 +76,9 @@
             width: 100%;
 
             a {
+                color: #fff;
+                font-size: 16px;
+
                 &:hover {
                     text-decoration: underline;
                 }
