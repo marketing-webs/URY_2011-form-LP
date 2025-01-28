@@ -12,7 +12,7 @@ changeText('.company-name', 'APP AND ROLL sp z o.o, Marszałkowska 58, 00-545 Wa
 changeText('.company-email', 'contactpl@appandroll.com');
 
 // DOMENA
-changeText('.domain-name', '');
+changeText('.domain-name', 'energizevitality.org');
 
 // CENA
 changeText('.product-price', 'XXX');

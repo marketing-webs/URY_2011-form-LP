@@ -7,6 +7,10 @@ localStorage.setItem("utm", JSON.stringify(utm));
 window.history.replaceState({}, "", window.location.pathname);
 
 links.forEach((link) => {
+	if (link.classList.contains('insideLink')) {
+		return
+	}
+	
 	link.href = `${salesPageUrl}${utm}`;
 });
 
