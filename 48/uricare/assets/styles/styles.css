@@ -434,6 +434,12 @@ a:hover {
     flex-direction: column;
   }
 }
+@media (max-width: 768px) {
+  .main .main__opionions .opionions__opinion img {
+    width: 146px;
+    height: 146px;
+  }
+}
 .main .main__opionions .opionions__opinion p {
   border-bottom: 1px solid #F7E1D7;
   font-size: 34px;
@@ -560,6 +566,11 @@ aside {
   max-width: 280px;
   width: 100%;
 }
+@media (max-width: 1000px) {
+  aside {
+    display: none;
+  }
+}
 aside .specialTitle {
   margin-bottom: 15px;
 }
@@ -567,11 +578,6 @@ aside .article {
   display: flex;
   align-items: center;
   margin-top: 10px;
-}
-@media (max-width: 1000px) {
-  aside .article {
-    display: none;
-  }
 }
 aside .article img {
   width: 50px;
