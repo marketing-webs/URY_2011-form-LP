@@ -6,7 +6,7 @@ const changeText = (className, newText) => {
 }
 
 // NAZWA SPÓŁKI
-changeText('.company-name', 'APP AND ROLL sp z o.o, Marszałkowska 58, 00-545 Warszawa, Polska , NIP: 7010348607');
+changeText('.company-name', 'Globadvise Holding LTD, 590 Kingston Road, London, SW20 8DN, England');
 
 // EMAIL
 changeText('.company-email', 'contactpl@appandroll.com');
