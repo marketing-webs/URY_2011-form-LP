@@ -568,7 +568,8 @@ aside {
 }
 @media (max-width: 1000px) {
   aside {
-    display: none;
+    max-width: 100%;
+    margin-top: 30px;
   }
 }
 aside .specialTitle {
@@ -602,6 +603,12 @@ aside .banner {
   position: relative;
   border: 2px solid #FFF067;
   margin-top: 40px;
+  max-width: 280px;
+}
+@media (max-width: 1000px) {
+  aside .banner {
+    margin: 30px auto 0;
+  }
 }
 aside .banner .title {
   position: absolute;
